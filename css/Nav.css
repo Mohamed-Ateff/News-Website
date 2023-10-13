@@ -1,0 +1,121 @@
+/* Nav */
+/* Search box */
+
+#form-search {
+  width: 300px;
+  min-width: 300px;
+  position: relative;
+  height: 100%;
+}
+
+#form-search input {
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  outline: 0px;
+  border: 0px;
+  background-color: rgb(240, 240, 240);
+  padding: 10px 10px 10px 20px;
+}
+
+#form-search input::placeholder {
+  font-family: var(--font-one);
+}
+
+#form-search button {
+  font-family: var(--font-one);
+  position: absolute;
+  top: 0px;
+  right: 00px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+  outline: 0px;
+  background-color: var(--primary);
+  padding: 10px 20px;
+  color: white;
+  width: 75px;
+  height: 100%;
+  cursor: pointer;
+}
+
+/* End Search box */  
+
+nav {
+  z-index: 9999999999999;
+  display: flex;
+  justify-content: space-between !important;
+  width: 100%;
+  align-items: center;
+  border-top: 2px solid var(--primary);
+  overflow-y: hidden;
+  overflow-x: auto;
+  height: 45px;
+  background-color: var(--primary-Two);
+  padding: 0px 14.5px;
+}
+
+nav::-webkit-scrollbar-thumb {
+  width: 0px;
+  height: 1px;
+}
+
+nav #icon-nav {
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+.links-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: fit-content;
+}
+
+.links-nav a {
+  transition: .2s ease-in;
+  font-size: 15px;
+  color: var(--light-color);
+  margin: 0px 18px 0px 0px;
+}
+
+.links-nav a:focus {
+  color: var(--primary);
+}
+
+.links-nav a:hover {
+  color: var(--primary-Three);
+}
+
+.fa-home {
+  color: var(--light-color);
+  padding: 13px;
+  margin-right: 6px;
+  font-size: 18px;
+  background-color: var(--primary);
+}
+
+
+
+nav.scroll {
+  position: fixed;
+  width: 74%;
+  top: 0;
+  transition: .3s ease-in-out;
+  z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+  height: 45px;
+  transition: top 0.3s !important;
+}
+
+nav.scroll #logo {
+  font-size: 18px;
+  color: white;
+}
+
+nav.scroll li a {
+  color: white;
+}
+
+
+/* End links */

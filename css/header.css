@@ -1,0 +1,146 @@
+/* Header */
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: var(--primary-Two);
+}
+
+#last-News {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 2px solid var(--primary);
+}
+
+.title-News-Header {
+  font-size: 15PX;
+  padding: 5px 55px;
+  background-color: var(--primary);
+  color: var(--light-color);
+}
+
+marquee {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+marquee a {
+  color: var(--light-color);
+  margin: 13px;
+  font-size: 13px;
+  transition: .3s ease-in;
+}
+
+marquee a:hover {
+  color: var(--primary-Three);
+}
+
+#Rell-Header {
+  display: flex;
+  width: 100%;
+  height: 50%;
+}
+
+.datetime {
+  color: white;
+  background-color: var(--primary-Two);
+  font-family: var(--font-one);
+  width: 175px;
+  padding-right: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.date {
+  font-size: 11.4px;
+  text-align: center;
+}
+
+/* .time{
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time span:not(:last-child){
+  position: relative;
+  margin: 0 6px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.time span:last-child{
+  background: #2E94E3;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 0 5px;
+  border-radius: 3px;
+}
+*/
+
+
+.About-as-header {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.About-as-header a {
+  margin: 5px 16px;
+  font-size: 13px;
+  transition: .3s ease-in;
+  color: var(--light-color);
+}
+
+.About-as-header a:hover {
+  color: var(--primary-Three);
+}
+
+.Div-border-header {
+  width: 2px;
+  height: 15px;
+  background-color: #0000004d;
+}
+
+.D-social-header {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.D-social-header a {
+  color: var(--light-color);
+  margin-right: 11px;
+  font-size: 13px;
+  transition: .3s ease-in;
+}
+
+.D-social-header a:hover {
+  color: var(--primary-Three);
+}
+
+
+
+@media only screen and (max-width: 668px) {
+
+  .D-social-header {
+    display: none !important;
+  }
+
+}
+
+/* Header */
